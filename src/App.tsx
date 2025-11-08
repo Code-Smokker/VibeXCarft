@@ -21,6 +21,7 @@ import Pricing from "./pages/Pricing";
 import Settings from "./pages/Settings";
 import NotFound from "./pages/NotFound";
 import Navbar from "./components/Navbar";
+import Query from "./pages/Query";
 
 const queryClient = new QueryClient();
 
@@ -59,6 +60,7 @@ function App() {
               <Route path="analytics" element={<Analytics />} />
               <Route path="profile" element={<Profile />} />
               <Route path="settings" element={<Settings />} />
+              <Route path="query" element={<Query />} />
             </Route>
             
             {/* 404 Route */}
